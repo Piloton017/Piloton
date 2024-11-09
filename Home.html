@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KShoes</title>
+    <link rel="icon" type="image/x-icon" href="images/iconlogo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Lobster&display=swap" rel="stylesheet">
+    <script src="fontawesome-free-6.6.0-web/js/all.js"></script>
+    <style>
+         body { background-color: #a5bee0; }
+    .navbar { background-color: #003366; }
+    .navbar a { color: #ffffff; }
+    .navbar a:hover { color: #ffcc66; }
+    .text-primary { color: #003366 !important; }
+    .card { border: none; }
+    .service-card { background-color: #003366; color: white; }
+    .footer { background-color: #003366; color: #ffffff; }
+    .footer a { color: #ffcc66; text-decoration: none; }
+    .breadcrumb { background-color: transparent; }
+    .service-icon { font-size: 1.5rem; }
+    .contact-info i { font-size: 1.2rem; }
+    .carousel-item img { 
+      width: 100%; 
+      height: 300px; 
+      object-fit: cover; 
+      border-radius: 50%; /* Circular images */
+    }
+        .navbar {
+            background-color: #003366;  
+        }
+
+        .navbar-brand {
+            color: white;  
+            display: flex;
+            align-items: center;  
+        }
+
+        .navbar-nav .nav-link {
+            color: white;  
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #FFD700;  
+        }
+
+        
+        h1 {
+            font-family: 'Lobster', cursive; 
+            color: #003366;  
+        }
+        
+        .btn-custom {
+            background-color: #007bff;  
+            color: white; 
+        }
+        
+        .btn-custom:hover {
+            background-color: #0056b3; 
+        }
+        
+        .text-justify {
+            text-align: justify;  
+        }
+
+        .card {
+            border: 1px solid #007bff;  
+        }
+        
+        .card-body {
+            color: #333; 
+        }
+
+        
+
+        .highlight {
+            border: 2px solid #007bff;  
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 30px;
+            background-color: #dbaeb2; 
+        }
+
+        .social-media {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .logo-circle {
+        width: 50px; 
+        height: 50px;  
+        border-radius: 50%;  
+        background-color: #4307f7; 
+        border: 2px solid #010810;  
+        display: flex;
+        align-items: center;  
+        justify-content: center; 
+        overflow: hidden;  
+    }
+
+    .logo-circle img {
+        width: 100%; 
+        height: auto;  
+    }
+
+        .welcome-image {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            height: 100%;  
+            object-fit: cover;  
+            opacity: 0.5; 
+            z-index: -1;  
+        }
+    </style>
+</head>
+<body>
+      <class="navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="Profile.html">
+                <img src="images/iconlogo.jpg" alt="Logo" class="logo" style="width: 40px; height: 40px; border-radius: 50%; margin-right: 10px;">
+                KShoes
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div><nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="Profile.html"><img src="images/iconlogo.jpg" width="50" height="50" class="rounded-circle"> KShoes</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item"><a class="nav-link active " aria-current="page" href="Home.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="About.html"><i class="fa-solid fa-user"></i> About</a></li>
+                  <li class="nav-item"><a class="nav-link "   href="Services.html"><i class="fa-solid fa-phone"></i> Services</a></li>
+                  <li class="nav-item"><a class="nav-link" href="Gallery.html"><i class="fa-solid fa-images"></i> Gallery</a></li>
+                  <li class="nav-item"><a class="nav-link" href="Contact.html"><i class="fa-solid fa-phone"></i> Contact Us</a></li>
+                </ul>
+                <a href="logout.html" class="navbar-text text-decoration-none"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+              </div>
+            </div>
+          </nav>
+    
+    <div class="row justify-content-center section" style="margin-top: 80px; position: relative;">
+        <div class="col-lg-10 position-relative">
+            <div class="row m-5 align-items-center">
+                <div class="col-md-6">
+                    <h1>Welcome to KShoes</h1>
+                    <p style="color:#003366 ;">Your destination for the latest in footwear fashion!</p>
+                    <div class="d-flex align-items-content">
+                        <a href="Gallery.html" class="btn btn-custom me-2"><i class="fa-solid fa-handshake-simple"></i> Browse Our Collection</a>
+                        <a href="About.html" class="btn btn-custom me-2"><i class="fa-solid fa-handshake-simple"></i> More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="images/iconlogo.jpg" height="500px" alt="Profile Picture" class="rounded-circle">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center section" style="margin-top: 20px;">
+        <div class="col-lg-10">
+            <div class="row m-5 align-items-center highlight" style="position: relative; background-size: cover; border-radius: 10px; overflow: hidden;">
+                <div class="col-md-6" style="position: relative; z-index: 1; background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px;">
+                    <h1>Who We Are?</h1>
+                    <p class="text-justify" style="color: #4a4a4a;">KShoes is more than just a shoe store. We are a community hub where fashion meets function. Our collection features the latest styles and trends, ensuring you find the perfect pair for any occasion. Whether you're here to shop for athletic shoes, casual sneakers, or formal footwear, KShoes is your go-to destination for stylish options.</p>
+                    <div class="d-flex align-items-content">
+                        <a href="About.html" class="btn btn-secondary text-white"><i class="fa-solid fa-play"></i> Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center" style="position: relative; z-index: 1;">
+                    <img src="Images/image4.jpg" alt="Who We Are" class="img-fluid rounded-circle" style="border-radius: 50%; width: 300px; height: 300px; object-fit: cover;">
+                </div>
+                <div class="col-md-6" style="opacity: 0.5; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center section" style="margin-top: 20px;">
+        <div class="col-lg-10">
+            <div class="row m-5">
+                <div class="col-md-12 highlight text-center">
+                    <h1>What We Offer</h1>
+                    <p class="text-justify" style="color: #4a4a4a;">At KShoes, we provide a wide variety of footwear options to meet all your needs. Our offerings include:</p>
+                    <ul class="list-unstyled" style="color: #4a4a4a;">
+                        <li><i class="fa-solid fa-check"></i> High-quality athletic shoes for all sports.</li>
+                        <li><i class="fa-solid fa-check"></i> Trendy casual sneakers for everyday wear.</li>
+                        <li><i class="fa-solid fa-check"></i> Elegant formal footwear for special occasions.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="social-media">
+        <h2>For More Information</h2>
+        <p style="color: #4a4a4a;">Connect with us on social media or reach out via email:</p>
+        <div>
+            <a href="https://www.tiktok.com/@kshoes" target="_blank" class="btn btn-custom me-2"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+            <a href="https://www.facebook.com/kshoes" target="_blank" class="btn btn-custom me-2"><i class="fa-brands fa-facebook"></i> Facebook</a>
+            <a href="mailto:kshoes017@gmail.com" class="btn btn-custom"><i class="fa-regular fa-envelope"></i> Email Us</a>
+        </div>
+    </div>
+
+    <footer class="footer text-center mt-5  ">
+        <div class="container "   >
+          <p style="color: #f9f9f9;">&copy; 2024 KSHOES. All Rights Reserved.</p>
+          <p style="color: #f9f9f9;">Created by Wilfredo O Piloton | IT2F</p>
+          <p style="color: #f9f9f9;"><a href="Privacy.html">Privacy Policy</a> | <a href="Terms.html">Terms of Service</a></p>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-5L6eY8DLT/sVDQmTQ6WwZfV+aGLqe15zQARzgxWjYLRJlEvl2fZMx1qln/mPpmhC" crossorigin="anonymous"></script>
+</body>
+</html>
